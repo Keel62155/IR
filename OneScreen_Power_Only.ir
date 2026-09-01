@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+#
+# OneScreen Touchscreen Display - Power Buttons Only
+#
+name: Red_pwr
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 41 00 00 00
+#
+name: Blue_pwr
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 0B 00 00 00
