@@ -1,0 +1,11 @@
+Filetype: IR signals file
+Version: 1
+# Extracted from Next-Flip/Momentum-Firmware dev tv.ir
+# Mute signal 27 of 93, original library order
+# Source blob SHA: 125f5ce4bc19abdbe4472399d898ec4a68c052fc
+#
+name: Mute_27
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: DF 00 00 00
